@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="2.7.1" version="1.0">
+This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+<lib desc="#Wiring" name="0"/>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4">
+    <tool name="ROM">
+      <a name="contents">addr/data: 8 8
+0
+</a>
+    </tool>
+  </lib>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#Base" name="6">
+    <tool name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+  </lib>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="6" map="Button2" name="Menu Tool"/>
+    <tool lib="6" map="Button3" name="Menu Tool"/>
+    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="6" name="Poke Tool"/>
+    <tool lib="6" name="Edit Tool"/>
+    <tool lib="6" name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin">
+      <a name="tristate" val="false"/>
+    </tool>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </tool>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="circuit" val="main"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(160,210)" to="(160,660)"/>
+    <wire from="(940,640)" to="(990,640)"/>
+    <wire from="(570,310)" to="(570,450)"/>
+    <wire from="(120,370)" to="(180,370)"/>
+    <wire from="(570,710)" to="(620,710)"/>
+    <wire from="(130,750)" to="(180,750)"/>
+    <wire from="(130,290)" to="(180,290)"/>
+    <wire from="(120,370)" to="(120,580)"/>
+    <wire from="(330,590)" to="(330,610)"/>
+    <wire from="(230,770)" to="(400,770)"/>
+    <wire from="(30,290)" to="(130,290)"/>
+    <wire from="(320,250)" to="(360,250)"/>
+    <wire from="(230,590)" to="(330,590)"/>
+    <wire from="(630,640)" to="(910,640)"/>
+    <wire from="(570,460)" to="(590,460)"/>
+    <wire from="(440,700)" to="(470,700)"/>
+    <wire from="(620,710)" to="(640,710)"/>
+    <wire from="(650,460)" to="(670,460)"/>
+    <wire from="(330,610)" to="(360,610)"/>
+    <wire from="(330,630)" to="(360,630)"/>
+    <wire from="(90,280)" to="(180,280)"/>
+    <wire from="(430,300)" to="(450,300)"/>
+    <wire from="(430,320)" to="(450,320)"/>
+    <wire from="(160,210)" to="(180,210)"/>
+    <wire from="(100,680)" to="(180,680)"/>
+    <wire from="(570,460)" to="(570,710)"/>
+    <wire from="(430,250)" to="(430,300)"/>
+    <wire from="(400,720)" to="(400,770)"/>
+    <wire from="(330,630)" to="(330,680)"/>
+    <wire from="(670,410)" to="(670,460)"/>
+    <wire from="(680,460)" to="(680,510)"/>
+    <wire from="(30,680)" to="(100,680)"/>
+    <wire from="(230,370)" to="(430,370)"/>
+    <wire from="(620,660)" to="(620,710)"/>
+    <wire from="(680,460)" to="(690,460)"/>
+    <wire from="(500,310)" to="(570,310)"/>
+    <wire from="(30,210)" to="(160,210)"/>
+    <wire from="(680,510)" to="(820,510)"/>
+    <wire from="(620,260)" to="(630,260)"/>
+    <wire from="(620,660)" to="(630,660)"/>
+    <wire from="(30,590)" to="(90,590)"/>
+    <wire from="(120,580)" to="(180,580)"/>
+    <wire from="(520,710)" to="(570,710)"/>
+    <wire from="(30,780)" to="(150,780)"/>
+    <wire from="(130,290)" to="(130,750)"/>
+    <wire from="(570,310)" to="(610,310)"/>
+    <wire from="(440,620)" to="(440,700)"/>
+    <wire from="(620,230)" to="(620,260)"/>
+    <wire from="(620,230)" to="(860,230)"/>
+    <wire from="(320,210)" to="(320,240)"/>
+    <wire from="(320,240)" to="(360,240)"/>
+    <wire from="(630,640)" to="(630,660)"/>
+    <wire from="(230,680)" to="(330,680)"/>
+    <wire from="(150,220)" to="(180,220)"/>
+    <wire from="(150,780)" to="(180,780)"/>
+    <wire from="(100,390)" to="(100,680)"/>
+    <wire from="(410,620)" to="(440,620)"/>
+    <wire from="(570,450)" to="(590,450)"/>
+    <wire from="(230,210)" to="(320,210)"/>
+    <wire from="(230,290)" to="(320,290)"/>
+    <wire from="(610,310)" to="(630,310)"/>
+    <wire from="(30,370)" to="(120,370)"/>
+    <wire from="(670,410)" to="(690,410)"/>
+    <wire from="(90,590)" to="(180,590)"/>
+    <wire from="(410,250)" to="(430,250)"/>
+    <wire from="(850,510)" to="(940,510)"/>
+    <wire from="(320,250)" to="(320,290)"/>
+    <wire from="(160,660)" to="(180,660)"/>
+    <wire from="(100,390)" to="(180,390)"/>
+    <wire from="(150,220)" to="(150,780)"/>
+    <wire from="(430,320)" to="(430,370)"/>
+    <wire from="(90,280)" to="(90,590)"/>
+    <wire from="(890,230)" to="(960,230)"/>
+    <wire from="(610,260)" to="(610,310)"/>
+    <wire from="(400,720)" to="(470,720)"/>
+    <wire from="(670,460)" to="(680,460)"/>
+    <wire from="(610,260)" to="(620,260)"/>
+    <wire from="(630,660)" to="(640,660)"/>
+    <comp lib="6" loc="(33,184)" name="Text">
+      <a name="text" val="ROCK 01"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(612,92)" name="Text">
+      <a name="text" val="UMAIR ULLAH KHAN 19B-095-CS"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(40,533)" name="Text">
+      <a name="text" val="PLAYER 02"/>
+      <a name="font" val="Cambria Math bold 14"/>
+    </comp>
+    <comp lib="6" loc="(44,345)" name="Text">
+      <a name="text" val="SCISSOR 01"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="5" loc="(690,410)" name="LED">
+      <a name="color" val="#1a25f0"/>
+    </comp>
+    <comp lib="6" loc="(398,845)" name="Text">
+      <a name="text" val="*)RED INDICATES LOSING"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(57,350)" name="Text">
+      <a name="font" val="Cambria Math bold 12"/>
+    </comp>
+    <comp lib="6" loc="(249,656)" name="Text">
+      <a name="text" val="AND 05"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(30,370)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(36,267)" name="Text">
+      <a name="text" val="PAPER 01"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(399,926)" name="Text">
+      <a name="text" val="*)YELLOW INDICATES IF NOT TIED"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(787,464)" name="Text">
+      <a name="text" val="OUTPUT OF GAME IF TIED"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(650,460)" name="NOR Gate"/>
+    <comp lib="5" loc="(640,660)" name="LED">
+      <a name="color" val="#2af033"/>
+    </comp>
+    <comp lib="1" loc="(890,230)" name="NOT Gate"/>
+    <comp lib="6" loc="(743,315)" name="Text">
+      <a name="text" val="OUTPUT OF PLAYER 01"/>
+      <a name="font" val="Cambria Math bold 12"/>
+    </comp>
+    <comp lib="5" loc="(940,510)" name="LED">
+      <a name="color" val="#e7f047"/>
+    </comp>
+    <comp lib="1" loc="(230,590)" name="AND Gate"/>
+    <comp lib="0" loc="(30,210)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(223,181)" name="Text">
+      <a name="text" val="AND 01"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(520,710)" name="OR Gate"/>
+    <comp lib="6" loc="(46,759)" name="Text">
+      <a name="text" val="SCISSOR 02"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(771,705)" name="Text">
+      <a name="text" val="OUTPUT OF PLAYER 02"/>
+      <a name="font" val="Cambria Math bold 12"/>
+    </comp>
+    <comp lib="6" loc="(612,117)" name="Text">
+      <a name="text" val="SYED MUHAMMAD ZAID 19B-140-CS"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(893,879)" name="Text">
+      <a name="text" val="*EVERY PLAYER SHOULD GIVE ONE INPUT"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(230,370)" name="AND Gate"/>
+    <comp lib="6" loc="(393,808)" name="Text">
+      <a name="text" val="LED INDICATES???"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(46,139)" name="Text">
+      <a name="text" val="PLAYER 01"/>
+      <a name="font" val="Cambria Math bold 14"/>
+    </comp>
+    <comp lib="6" loc="(612,69)" name="Text">
+      <a name="text" val="MUHAMMAD UMAR 19B-136-CS"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(1014,260)" name="Text">
+      <a name="text" val="GLOWS RED IF PLAYEER ONE LOSES"/>
+      <a name="font" val="Cambria Math bold 14"/>
+    </comp>
+    <comp lib="6" loc="(40,652)" name="Text">
+      <a name="text" val="PAPER 02"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(410,250)" name="OR Gate"/>
+    <comp lib="6" loc="(988,207)" name="Text">
+      <a name="text" val="LED 02"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(940,640)" name="NOT Gate"/>
+    <comp lib="1" loc="(230,770)" name="AND Gate"/>
+    <comp lib="6" loc="(1020,621)" name="Text">
+      <a name="text" val="LED 06"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(860,205)" name="Text">
+      <a name="text" val="NOT 01"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(30,680)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(410,620)" name="OR Gate"/>
+    <comp lib="6" loc="(894,913)" name="Text">
+      <a name="text" val="*EVERY PLAYER SHOULD NOT GIVE MORE THAN ONE INPUT"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="5" loc="(990,640)" name="LED"/>
+    <comp lib="6" loc="(599,228)" name="Text">
+      <a name="text" val="GLOWS GREEN ONLY IF THE PLAYER ONE WINS"/>
+      <a name="font" val="Cambria Math bold 14"/>
+    </comp>
+    <comp lib="6" loc="(260,274)" name="Text">
+      <a name="text" val="AND 02"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(30,290)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(630,310)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(892,796)" name="Text">
+      <a name="text" val="**RULES OF PLAYING**"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(422,590)" name="Text">
+      <a name="text" val="OR 03"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(724,633)" name="Text">
+      <a name="text" val="GLOWS GREEN ONLY IF THE PLAYER TWO WINS"/>
+      <a name="font" val="SansSerif bold 13"/>
+    </comp>
+    <comp lib="1" loc="(230,210)" name="AND Gate"/>
+    <comp lib="6" loc="(252,566)" name="Text">
+      <a name="text" val="AND 04"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(642,402)" name="Text">
+      <a name="text" val="LED 03"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(616,502)" name="Text">
+      <a name="text" val="NOR 01"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(243,351)" name="Text">
+      <a name="text" val="AND 03"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(399,953)" name="Text">
+      <a name="text" val="*)BLUE INDICATES &quot;GAME TIED&quot;"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(685,263)" name="Text">
+      <a name="text" val="LED 01"/>
+      <a name="font" val="Cambria Math bold 12"/>
+    </comp>
+    <comp lib="6" loc="(398,886)" name="Text">
+      <a name="text" val="*)GREEN INDICATES WINNING"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(258,749)" name="Text">
+      <a name="text" val="AND 06"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(513,665)" name="Text">
+      <a name="text" val="OR 04"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(230,290)" name="AND Gate"/>
+    <comp lib="1" loc="(230,680)" name="AND Gate"/>
+    <comp lib="5" loc="(960,230)" name="LED"/>
+    <comp lib="6" loc="(893,838)" name="Text">
+      <a name="text" val="1.MULTIPLAYER GAME"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(33,568)" name="Text">
+      <a name="text" val="ROCK 02"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(612,142)" name="Text">
+      <a name="text" val="USMAN AHMED KHAN 19B-072-CS"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(690,460)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(672,681)" name="Text">
+      <a name="text" val="LED 05"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(30,780)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(997,671)" name="Text">
+      <a name="text" val="GLOWS RED IF PLAYER TWO LOSES"/>
+    </comp>
+    <comp lib="6" loc="(385,288)" name="Text">
+      <a name="text" val="OR 01"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(1077,486)" name="Text">
+      <a name="text" val="GLOWS YELLOW IF THE GAME IS NOT TIED"/>
+      <a name="font" val="Cambria Math bold 14"/>
+    </comp>
+    <comp lib="0" loc="(640,710)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(967,541)" name="Text">
+      <a name="text" val="LED 04"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(500,310)" name="OR Gate"/>
+    <comp lib="1" loc="(850,510)" name="NOT Gate"/>
+    <comp lib="6" loc="(491,357)" name="Text">
+      <a name="text" val="OR 02"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(668,45)" name="Text">
+      <a name="text" val="&quot;ROCK PAPER AND SCISSOR SIMULATION&quot;"/>
+      <a name="font" val="Stencil bold 56"/>
+    </comp>
+    <comp lib="6" loc="(866,410)" name="Text">
+      <a name="text" val="GLOWS BLUE ONLY IF GAME TIED"/>
+      <a name="font" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="5" loc="(630,260)" name="LED">
+      <a name="color" val="#48f050"/>
+    </comp>
+    <comp lib="6" loc="(832,532)" name="Text">
+      <a name="text" val="NOT 02"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(30,590)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(934,619)" name="Text">
+      <a name="text" val="NOT 03"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+  </circuit>
+</project>
